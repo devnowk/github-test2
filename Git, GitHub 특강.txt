@@ -1,0 +1,29 @@
+Git이란? 버전을 관리하는 시스템
+
+하나의 버전이 되기까지 거쳐가는 세 개의 공간
+1. Working directory(작업공간)
+Q. Working Directory의 모든 변경사항들을 버전으로 만들어야 할까?
+A. 변경사항들 중 다음 버전이 될 파일들을 선별해서 선별된 파일들을 버전으로 만들자!
+
+2. Staging Area
+- 버전이 될 후보들이 올라오는 공간
+- Working directory에서 선별
+
+3. Repository
+- Staging Area에 올라온 걸 저장
+- 내 컴퓨터 속 저장소
+
+<명령어>
+git add : 변경된 파일들을 작업공간에서 Staging Area로 옮겨감
+git commit -m "commit message" : Staging -> Repository 버전을 만듦
+* commit message : 이 변화가(이 버전이)의미하는 것을 담은 메세지 어떤 유의미한 변화가 이 버전에 담겼는가를 담은 메세지
+git init : 지금부터 이 폴더에서 버전관리 시작할거다
+git status : 지금 상황은?
+git log : 지금까지의 버전은?
+git diff a b : a는 b에 비해 뭐가 달라졌어?
+
+<실습>
+1. git add
+2. git status
+3. git commit -m "어쩌구"
+4. git log

@@ -1,2 +1,2 @@
-Hello wiset
+.Hello wiset
 Hello World
